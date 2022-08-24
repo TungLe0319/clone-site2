@@ -1,0 +1,159 @@
+<!-- HTML doc with AwesomeFont/GoogleFont/BootStrap5.0 -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500&family=Orbitron:wght@500&family=Poppins:wght@200&family=Roboto:ital,wght@1,300&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <style>
+    body.debug .container,
+    body.debug .container-fluid {
+      outline: 2px double blue;
+      outline-offset: -2px;
+    }
+
+    body.debug .row {
+      outline: 2px dashed red;
+      outline-offset: -2px;
+    }
+
+    body.debug [class*='col-'] {
+      outline: 2px dotted forestgreen;
+      outline-offset: -3px;
+    }
+  </style>
+  <body class="debug">
+    <!-- SECTION HEADER -->
+    <header class="container-fluid">
+      <div class="row bg-info text-dark py-1 justify-content-center">
+        <div
+          class="col-2 d-flex justify-content-center align-items-center me-5"
+        >
+          <i class="mdi mdi-dog fs-1"></i>
+        </div>
+        <div
+          class="col-3 d-flex justify-content-around align-items-center fs-3"
+        >
+          <div class="p-3">Portfolio</div>
+          <div class="p-3">About</div>
+          <div class="p-3">Contact</div>
+          <div class="p-3">Store</div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container-fluid">
+      <!-- SECTION HERO-IMG -->
+      <section
+        class="row justify-content-center align-content-center hero-img"
+      ></section>
+      <br />
+      <!-- SECTION ABOUT -->
+      <section class="row justify-content-center">
+        <div class="col-6 p-5">
+          <h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+            nesciunt molestias eveniet ratione iusto, in illum asperiores
+            veritatis, ex commodi quasi, unde placeat pariatur suscipit
+            praesentium saepe impedit ipsa eos?
+          </h3>
+          <div class="d-flex justify-content-end">
+            <i class="icon-dog mdi mdi-arrow-right-box fs-1">LEARN MORE</i>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION 3 IMAGES -->
+      <section
+        class="row bg-dark text-light three-images justify-content-center text-center"
+      >
+        <div class="col-sm-12 col-md-2">
+          <img
+            src="https://source.unsplash.com/random/150x150?sig=3"
+            alt=""
+            class="rounded"
+          />
+          <div class="bottom-image-text text-start ps-2">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit,
+              illo?
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-2">
+          <img
+            src="https://source.unsplash.com/random/150x150?sig=3"
+            alt=""
+            class="rounded"
+          />
+          <div class="bottom-image-text text-start ps-2">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit,
+              illo?
+            </p>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-2">
+          <img
+            src="https://source.unsplash.com/random/150x150?sig=3"
+            alt=""
+            class="rounded"
+          />
+          <div class="bottom-image-text text-start ps-2">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit,
+              illo?
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- SECTION FOOTER -->
+    <footer class="row bg-info text-dark p-4 justify-content-center">
+      <div
+        class="col-sm-12 col-md-3 d-flex flex-row justify-content-between align-items-center fs-5 pe-5"
+      >
+        <div class="mx-2"><h4>Job</h4></div>
+        <div class="mx-2"><h4>Store</h4></div>
+        <div class="mx-2"><h4>Twitter</h4></div>
+        <div class="mx-2"><h4>Facebook</h4></div>
+      </div>
+      <div class="col-sm-12 col-md-3 ps-5 fs-5">
+        <div>124.123.123</div>
+        <div>hello@studio.com</div>
+      </div>
+      <div class="col-sm-12 col-md-3 fs-5">
+        <div>3256 Minhoe Way</div>
+        <div>Meridian, ID 83642</div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a2d3ad0e84.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

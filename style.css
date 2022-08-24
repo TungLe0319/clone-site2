@@ -1,0 +1,16 @@
+.hero-img{
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F9c%2Fee%2F1b%2F9cee1b9401f5c9507d7230314b99d07b.jpg&f=1&nofb=1);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.bottom-image-text{
+  text-align: center;
+}
+.three-images{
+  padding: 8rem 8rem 8rem 8rem;
+}
+.icon-dog{
+  font-size: 40pt;
+}
